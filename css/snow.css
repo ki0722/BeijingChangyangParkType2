@@ -1,0 +1,61 @@
+/**********************************/
+/*            snow.css            */
+/**********************************/
+
+.snow {
+  background-image: url("../images/winter/snow.png");
+  background-repeat: repeat;
+  width: 100%;
+  height: 480%;/*********ye mina xuehua piaoluo gao******/
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  transition: opacity 3s;
+}
+.snow.snow-1 {
+  -webkit-animation-name: animateone;
+          animation-name: animateone;
+  background-size: 500px 500px;
+}
+
+.snow.snow-2 {
+  -webkit-animation-name: animateone;
+          animation-name: animateone;
+  background-size: 2500px 2500px;
+}
+
+@-webkit-keyframes animateone {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 500px 500px;
+  }
+}
+
+@keyframes animateone {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 500px 500px;
+  }
+}
+@-webkit-keyframes animatetwo {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 300px 900px;
+  }
+}
+@keyframes animatetwo {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 300px 900px;
+  }
+}
