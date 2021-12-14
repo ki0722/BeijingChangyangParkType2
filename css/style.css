@@ -16,8 +16,8 @@ header{
   width: 100%;
   min-width: 960px;
   height: 6rem;
-  background-color: #ffb3a7;
-  box-shadow: 0 3px 0.5rem rgba(0,0,0,.4);
+  background:linear-gradient(to top,#000011,#000055);
+  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
   z-index: 999;
 }
 
@@ -59,7 +59,10 @@ header h1{
   top: 25px;
   left:270px;
   font-size: 1.5rem;
-  color: white;
+  background:-webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #FFFFBB;
 }
 
 
@@ -277,8 +280,8 @@ a.btn-3db:hover {
 
 footer{
   padding: 3rem;
-  background-color:  #ffb3a7;
-  color: white;
+  background:linear-gradient(to top,#000055, #000011);
+  color: #86FDE8;
   text-align: center;
 }
 
