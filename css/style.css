@@ -5,6 +5,8 @@
   text-decoration: none;
 }
 
+
+
 body{
   margin-top: 6rem;
 }
@@ -145,9 +147,9 @@ section h1{
   color: white;
 }
 
-
-
-
+iframe{
+width: 100%;
+}
 
 
 
