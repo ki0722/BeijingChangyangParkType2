@@ -98,7 +98,7 @@ function createALeaf()
 
     /* Position the leaf at a random location along the screen
     将叶沿屏幕随机放置　　落叶写真のサイズ 　例えば１０２４px（０，１０２４）*/
-    leafDiv.style.left = pixelValue(randomInteger(0, 2548));
+    leafDiv.style.left = pixelValue(randomInteger(100, 960));
 
     /* Randomly choose a spin animation
     随机选择旋转动画*/

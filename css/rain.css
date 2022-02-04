@@ -57,7 +57,7 @@
     /* Move a leaf to -300 pixels in the y-axis at the start of the animation */
     0%   { -webkit-transform: translate(0px, -50px); }
     /* Move a leaf to 600 pixels in the y-axis at the end of the animation 叶子画面高度 */
-    100% { -webkit-transform: translate(0px, 6000px); }
+    100% { -webkit-transform: translate(0px, 3600px); }
 }
 
 /* Rotates a leaf from -50 to 50 degrees in 2D space */

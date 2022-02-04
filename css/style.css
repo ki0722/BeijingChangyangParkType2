@@ -1,3 +1,6 @@
+
+@import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
+
 *{
   margin:0;
   padding: 0;
@@ -5,10 +8,10 @@
   text-decoration: none;
 }
 
-
-
-body{
-  margin-top: 6rem;
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 header{
@@ -17,7 +20,7 @@ header{
   left: 0;
   width: 100%;
   min-width: 960px;
-  height: 6rem;
+  height: 7rem;
   background:linear-gradient(to top,#000011,#000055);
   box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
   z-index: 999;
@@ -25,9 +28,20 @@ header{
 
 header img {
   position: absolute;
-  top: 1.5rem;
-  left:200px;
+  top: 2rem;
+  left: 4rem;
   width:60px;
+}
+
+header h1{
+  position: absolute;
+  top: 2.5rem;
+  left: 11.5rem;
+  font-size: 1.5rem;
+  background:-webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #FFFFBB;
 }
 
 /*
@@ -37,7 +51,7 @@ header img {
   }
 */
 
-article#VIDEO  {
+/* article#VIDEO  {
   width: 75%;
   max-width: 640px;
   margin: auto;
@@ -49,24 +63,6 @@ article#VIDEO  {
  article#VIDEO video {
   width: 100%;
   }
-
-
-
-
-
-
-
-header h1{
-  position: absolute;
-  top: 25px;
-  left:270px;
-  font-size: 1.5rem;
-  background:-webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: #FFFFBB;
-}
-
 
 .navButton {
   position: absolute;
@@ -101,17 +97,12 @@ header h1{
 .navButton.isOpen .navButton-line:nth-child(3) {
   top: -10px;
   transform: rotate(-135deg);
-}
-
-
-
-
-
+} */
 
 nav {
   position: absolute;
   top: 2.5rem;
-  right: 3rem;
+  right: 4rem;
 }
 
 nav ul {
@@ -124,11 +115,18 @@ nav ul li{
   font-size: 1.5rem;
 }
 
-nav a{
+nav a {
   color: white;
 }
 
+nav a:hover {
+  color: red;
+}
+
 #home {
+  width:95%;
+  margin: auto;
+  margin-top: 12rem;
 }
 
 section {
@@ -136,7 +134,7 @@ section {
   padding-right: 12%;
   padding-left: 12%;
   min-height: 18rem;
-  width:80%;
+  width:76%;
   margin:auto;
   max-width: 960px;
 }
@@ -152,30 +150,13 @@ width: 100%;
 }
 
 
-
-
-
-
-
-@import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
-
-*,
+/* *,
 *:before,
 *:after {
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
-}
+} */
 
-html {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  font-size: 62.5%;
-}
-
-/* 背景用*/
-body {
-  padding: 30px;
-}
 
 .btn,
 a.btn,
@@ -264,31 +245,34 @@ a.btn-3db:hover {
   right: 1rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
-  padding: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
   background:linear-gradient(to top,#000055, #000011);
   color: #86FDE8;
   text-align: center;
+  font-size: 115%;
 }
 
+#socialIcon {
+  width:120px;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#socialIcon li a {
+  color: silver;
+}
+
+#socialIcon li a:hover {
+  color: red;
+}
+
+
 /* parallax window */
-.parallax-window {
+/* .parallax-window {
   padding-top: 3rem;
   padding-right: 12%;
   padding-left: 12%;
@@ -302,4 +286,4 @@ footer{
 
 .parallax-window p{
   color: white;
-}
+} */
